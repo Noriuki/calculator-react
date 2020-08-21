@@ -1,0 +1,13 @@
+.button{
+    font-weight: 700;
+    border-radius: 1px;
+    outline: none;
+}
+
+.button.double{
+    grid-column: span 2;
+}
+
+.button.triple{
+    grid-column: span 3;
+}
