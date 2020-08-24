@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import '../assets/';
 
 import ColorPicker from './components/ColorPicker';
 import Calculadora from './components/Calculadora';

@@ -1,10 +1,17 @@
 .display{
     grid-column: span 4;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 15px;
-    font-size: 2rem;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 500;
     color: white;
     background-color: rgba(0, 0, 0, 0.1);
+}
+
+.display h1, .display h4{
+    width: max-content;
+    margin: 0;
+    padding: 5px;
 }

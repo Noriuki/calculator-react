@@ -2,11 +2,14 @@ import React from 'react';
 import './Button.css';
 
 export default function Button(props){
-    const label = props.label;
     const darkStyle = props.dark === true ? 'button-dark' : '';
 
+    const clicked = () => {
+        props.click(props.label);
+    }
+
     return (
-        <button className={`button ${darkStyle}`} >{ label }</button>
+        <button  onClick={clicked} className={`button ${darkStyle}`} >{ props.label }</button>
     );
 
 }
