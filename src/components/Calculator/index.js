@@ -24,7 +24,7 @@ export default function Calculator() {
 
     if (!isNaN(operation[operation.length - 1])) {
         // eslint-disable-next-line
-        setResult(eval(operation.join("")));
+        setResult(eval(operation.join("")).toFixed(2));
         setOperator(false);
     }
     
@@ -58,7 +58,7 @@ export default function Calculator() {
       <Button click={(e) => addOperator(e)} dark={true} label="*" />
 
       <Button click={(e) => addDigit(e)} label="0" />
-      <Button click={(e) => addOperator(e)} label="." />
+      <Button click={(e) => addDigit(e)} label="." />
       <Button click={(e) => calcResult(e)} label="=" />
       <Button click={(e) => addOperator(e)} dark={true} label="/" />
     </div>
