@@ -1,4 +1,5 @@
 # Calculadora-react
+Feito com o propósito de aprendizado.
 
 ## demo
 ![image](snapshot-1.png)
