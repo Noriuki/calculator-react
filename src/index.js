@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import '../assets/';
+import './assets/css/style.css';
 
 import ColorPicker from './components/ColorPicker';
-import Calculadora from './components/Calculadora';
+import Calculator from './components/Calculator';
 
 ReactDOM.render(
     <div>
         <ColorPicker/>
-        <Calculadora />
+        <Calculator />
     </div>,
   document.getElementById('root')
 );
