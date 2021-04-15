@@ -1,17 +1,27 @@
-# Calculadora-react
-Feito com o propósito de aprendizado.
+# Calculator-React
+> My very first React project ❤️
 
-## Project setup
-```
+topics covered:\
+:white_check_mark: [React](https://reactjs.org/)\
+:white_check_mark: [React Hooks](https://pt-br.reactjs.org/docs/hooks-intro.html)
+
+
+## :framed_picture: Screenshots
+![screenshot 1](https://github.com/Noriuki/calculator-react/blob/master/screenshot-1.png)
+
+
+![screenshot 2](https://github.com/Noriuki/calculator-react/blob/master/screenshot-2.png)
+
+## :wrench: Development setup
+
+install dependencies
+
+`
 npm install
-```
+`
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Run App
 
-### Compiles and minifies for production
-```
-npm run build
-```
+`
+npm dev
+`
